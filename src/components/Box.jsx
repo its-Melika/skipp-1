@@ -1,0 +1,141 @@
+import serverIcon from "../assets/logo/Server.svg";
+import locationIcon from "../assets/logo/location.svg";
+import userIcon from "../assets/logo/user.svg";
+
+function Box() {
+  return (
+    <div
+      className="
+    w-full
+    h-height-200 
+    flex 
+    justify-between 
+    items-center 
+    rounded-radiuse-10 
+    my-16 
+    shadow-2xl
+    shadow-second-border-color 
+    md:flex-col 
+    md:space-y-5 
+    md:h-auto"
+    >
+      <div
+        className="
+       w-1/3 
+       h-32 
+       border-l-custome-width-border 
+       border-border-color 
+       items-center 
+       flex 
+       justify-center 
+       md:border-b-custome-width-border 
+       md:border-l-0"
+      >
+        <div
+          className="
+        text-center 
+        flex "
+        >
+          <div>
+            <h6
+              className="
+            font-bold 
+            text-xl 
+            text-first-color"
+            >
+              ۵۰+
+            </h6>
+            <p
+              className="
+            font-normal 
+            text-xl 
+            text-second-color"
+            >
+              سرور
+            </p>
+          </div>
+          <div>
+            <img src={serverIcon} alt="" />
+          </div>
+        </div>
+      </div>
+      <div
+        className="
+       w-1/3 
+       h-32 
+       border-l-custome-width-border 
+       border-border-color 
+       items-center 
+       flex 
+       justify-center  
+       md:border-b-custome-width-border 
+       md:border-l-0"
+      >
+        <div
+          className="
+        text-center 
+        flex"
+        >
+          <div>
+            <h6
+              className="
+            font-bold 
+            text-xl 
+            text-first-color"
+            >
+              ۳۰+
+            </h6>
+            <p
+              className="
+            font-normal 
+            text-xl 
+            text-second-color"
+            >
+              مکان
+            </p>
+          </div>
+          <div>
+            <img src={locationIcon} alt="" />
+          </div>
+        </div>
+      </div>
+      <div
+        className="
+       w-1/3 
+       h-32 
+       items-center 
+       flex 
+       justify-center"
+      >
+        <div
+          className="text-center 
+        flex"
+        >
+          <div>
+            <h6
+              className="
+            font-bold 
+            text-xl 
+            text-first-color"
+            >
+              ۹۰+
+            </h6>
+            <p
+              className="
+            font-normal 
+            text-xl 
+            text-second-color"
+            >
+              افراد
+            </p>
+          </div>
+          <div>
+            <img src={userIcon} alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Box;

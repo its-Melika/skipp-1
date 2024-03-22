@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'yekan';
+  src: url('./assets/font/YekanBakh/YekanBakh-Regular.ttf') format('truetype'),  
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'yekan';
+}
+
+.container{
+  padding: 32px 64px;
+  width: 100%;
+  margin: 0 auto;
+}
+.respnsivecontainer{
+  padding: 32px 50px;
+  width: 100%;
+  margin: 0 auto;
+}
+
